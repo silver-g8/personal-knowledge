@@ -51,6 +51,12 @@ Before creating a new file:
 3. Otherwise, create a new note.
 4. Link the new note from a relevant index when useful.
 
+## Repo Commands
+
+When the user invokes a short command such as `process-inbox`, `inbox`, `learn-from-source`, `/process-inbox`, `/inbox`, or `/learn-from-source`, read the matching command file in `08-AI/commands/` and follow that workflow.
+
+If the interface does not support slash commands, treat the plain text command name as equivalent.
+
 ## Markdown Rules
 
 Always use:

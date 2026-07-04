@@ -11,3 +11,7 @@ Examples:
 - Configuration notes
 
 Reference notes should be concise, accurate, and easy to scan.
+
+## Active Subfolders
+
+- [Investment](Investment/README.md)

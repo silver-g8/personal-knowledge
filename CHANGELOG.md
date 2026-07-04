@@ -8,7 +8,12 @@ This project follows a simple chronological changelog.
 
 ### Added
 
--
+- Learning note template.
+- Repo-native `learn-from-source` command for turning NotebookLM sources into PKS learning material.
+- Repo-native `process-inbox` command for processing `00-Inbox/` as a queue.
+- Batch `limit` option for `process-inbox`.
+- NotebookLM source synthesis and Learning Notes for stock analysis using AI and NotebookLM.
+- Archived processed raw inbox source for stock analysis using AI and NotebookLM.
 
 ### Changed
 

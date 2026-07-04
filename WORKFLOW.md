@@ -22,6 +22,8 @@ Move notes into the correct folder when their purpose becomes clear.
 - Long-term responsibilities go to `05-Areas/`.
 - AI workflows go to `08-AI/`.
 
+Use [`process-inbox`](08-AI/commands/process-inbox.md) when `00-Inbox/` should be processed as a queue.
+
 ## Connect
 
 Add links between related notes.

@@ -26,6 +26,7 @@ This roadmap tracks the long-term development of the Personal Knowledge System.
 
 ## Phase 4: Knowledge Quality
 
+- [x] Add repo-native `process-inbox` command design.
 - [ ] Add metadata standard to mature notes.
 - [ ] Build indexes for major folders.
 - [ ] Create monthly review process.

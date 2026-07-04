@@ -11,6 +11,8 @@ This is the main entry point for the Personal Knowledge System.
 - [AI rules](AI-RULES.md)
 - [Roadmap](ROADMAP.md)
 - [Todo](TODO.md)
+- [AI commands](08-AI/commands/README.md)
+- [Process inbox command](08-AI/commands/process-inbox.md)
 
 ## Main Areas
 

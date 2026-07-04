@@ -12,3 +12,7 @@ Use this folder for courses, books, programming, investment, Linux, AI, and othe
 - `Investment/`
 
 Create subfolders only when there is real content to organize.
+
+## Active Subfolders
+
+- [AI](AI/README.md)

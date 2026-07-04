@@ -13,3 +13,7 @@ Use NotebookLM for source-grounded research and synthesis.
 ## Repository Rule
 
 NotebookLM output is useful, but it should not become canonical until reviewed and linked inside this repository.
+
+## PKS Commands
+
+Use [`learn-from-source`](commands/learn-from-source.md) when a NotebookLM source should become Learning Notes in PKS v2. The slash alias `/learn-from-source` is optional.
