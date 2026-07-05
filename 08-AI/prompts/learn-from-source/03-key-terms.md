@@ -6,11 +6,13 @@
 
 ## Key Terms
 
-| Term | Meaning From Source | Related Topic |
-| --- | --- | --- |
+| Term | Suggested Canonical ID | Meaning From Source | Related Topic | Detail Note Needed? |
+| --- | --- | --- | --- | --- |
 
 ข้อกำหนด:
 
 - อธิบายความหมายตามบริบทของ source
 - อย่าเติมนิยามจากภายนอกถ้า source ไม่ได้กล่าวไว้
 - ระบุคำที่ควรเชื่อมโยงกับหัวข้ออื่นใน PKS
+- เสนอ canonical ID เพื่อใช้ตรวจคำซ้ำใน vocabulary index
+- ใส่ `yes` ใน `Detail Note Needed?` เฉพาะคำที่ควรอธิบายยาวหรือมีตัวอย่างเพิ่มเติม

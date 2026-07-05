@@ -17,6 +17,7 @@ Use these defaults unless the user provides different values.
 | Language | Thai |
 | Output folder | `00-Inbox/` |
 | Learning template | `07-Templates/learning-note.md` |
+| Vocabulary index | `04-Reference/Vocabulary/vocabulary-index.md` |
 
 ## Invocation
 
@@ -53,9 +54,10 @@ Slash form:
 7. Analyze whether the material should become one Learning Note or several Learning Notes.
 8. Search `02-Learning/` for similar notes before creating new files.
 9. Use `07-Templates/learning-note.md` for new Learning Notes.
-10. Add related topics.
-11. Update `CHANGELOG.md`.
-12. Commit with a Conventional Commit message only when the user has asked for commit/push or the workflow explicitly includes it.
+10. Process `Key Terms` through `08-AI/commands/add-vocabulary.md`.
+11. Add related topics.
+12. Update `CHANGELOG.md`.
+13. Commit with a Conventional Commit message only when the user has asked for commit/push or the workflow explicitly includes it.
 
 ## NotebookLM Commands
 
@@ -140,12 +142,29 @@ If the category is unclear, use:
 
 Prefer multiple focused notes over one large note when the source contains separate reusable ideas.
 
+## Vocabulary Output
+
+After `03-key-terms.md`, process candidate vocabulary through:
+
+```text
+08-AI/commands/add-vocabulary.md
+```
+
+Required behavior:
+
+- Check `04-Reference/Vocabulary/vocabulary-index.md` before adding any term.
+- Use `Canonical ID` to prevent duplicate vocabulary.
+- Add new terms to the vocabulary index only when the source gives enough context.
+- Put unclear terms in the vocabulary `Review Queue`.
+- Create detail notes under `04-Reference/Vocabulary/terms/` only for terms that need longer explanation.
+- Link Learning Notes to the vocabulary index or term detail notes when useful.
+
 ## Duplicate Check
 
 Before creating new Learning Notes:
 
 ```bash
-rg -n "<topic>|<related keyword>" 02-Learning 04-Reference 08-AI
+rg -n "<topic>|<related keyword>|<term>|<canonical-id>" 02-Learning 04-Reference 08-AI
 ```
 
 Decide one of:
@@ -175,6 +194,9 @@ NotebookLM source processed:
 - Raw inbox file:
 - Learning notes created:
 - Existing notes updated:
+- Vocabulary added:
+- Vocabulary updated:
+- Vocabulary review queue:
 - Duplicate handling:
 - Related topics:
 - Open questions:

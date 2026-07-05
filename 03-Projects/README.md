@@ -15,3 +15,7 @@ Each project should have:
 2. Define objective and scope.
 3. Track tasks and progress.
 4. Move completed or inactive projects to `09-Archive/`.
+
+## Active Projects
+
+- [Personal Knowledge System v2](personal-knowledge-system-v2/README.md)

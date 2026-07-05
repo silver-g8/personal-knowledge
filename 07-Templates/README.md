@@ -10,3 +10,4 @@ Start with:
 - [Book note template](book-note.md)
 - [Project README template](project-readme.md)
 - [Research note template](research-note.md)
+- [Vocabulary term template](vocabulary-term.md)

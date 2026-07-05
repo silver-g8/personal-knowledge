@@ -13,6 +13,9 @@ This is the main entry point for the Personal Knowledge System.
 - [Todo](TODO.md)
 - [AI commands](08-AI/commands/README.md)
 - [Process inbox command](08-AI/commands/process-inbox.md)
+- [AI review checklist](08-AI/checklists/ai-review-checklist.md)
+- [Vocabulary index](04-Reference/Vocabulary/vocabulary-index.md)
+- [PKS v2 project](03-Projects/personal-knowledge-system-v2/README.md)
 
 ## Main Areas
 

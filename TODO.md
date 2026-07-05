@@ -2,24 +2,25 @@
 
 ## Setup
 
-- [ ] Decide whether this directory should be initialized as a Git repository.
+- [x] Decide whether this directory should be initialized as a Git repository.
 - [ ] Add a `.gitignore` if generated files will be created.
-- [ ] Create first daily note.
-- [ ] Create first active project folder.
+- [x] Create first daily note.
+- [x] Create first active project folder.
 
 ## Knowledge Operations
 
 - [ ] Process files from `00-Inbox/` weekly.
+- [x] Add central vocabulary system for learning terms.
 - [ ] Add links from new notes to existing notes.
 - [ ] Update [INDEX.md](INDEX.md) when major sections change.
 - [ ] Update [CHANGELOG.md](CHANGELOG.md) for notable changes.
 
 ## AI Operations
 
-- [ ] Add prompt templates in `08-AI/`.
-- [ ] Add NotebookLM workflow notes.
-- [ ] Add Codex workflow notes.
-- [ ] Create an AI review checklist.
+- [x] Add prompt templates in `08-AI/`.
+- [x] Add NotebookLM workflow notes.
+- [x] Add Codex workflow notes.
+- [x] Create an AI review checklist.
 
 ## Quality
 

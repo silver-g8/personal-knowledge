@@ -8,25 +8,26 @@ This roadmap tracks the long-term development of the Personal Knowledge System.
 - [x] Add root documentation.
 - [x] Add AI operating rules.
 - [x] Add initial templates.
-- [ ] Initialize Git repository if needed.
+- [x] Initialize Git repository if needed.
 
 ## Phase 2: Daily Use
 
-- [ ] Start daily notes.
+- [x] Start daily notes.
 - [ ] Process `00-Inbox/` weekly.
-- [ ] Create project folders for active work.
+- [x] Create project folders for active work.
 - [ ] Build reference notes from repeated knowledge.
 
 ## Phase 3: AI-Native Workflow
 
-- [ ] Define repeatable Codex workflow.
-- [ ] Define NotebookLM source strategy.
-- [ ] Create AI prompt library.
-- [ ] Create review checklist for AI-generated notes.
+- [x] Define repeatable Codex workflow.
+- [x] Define NotebookLM source strategy.
+- [x] Create AI prompt library.
+- [x] Create review checklist for AI-generated notes.
 
 ## Phase 4: Knowledge Quality
 
 - [x] Add repo-native `process-inbox` command design.
+- [x] Add central vocabulary registry.
 - [ ] Add metadata standard to mature notes.
 - [ ] Build indexes for major folders.
 - [ ] Create monthly review process.

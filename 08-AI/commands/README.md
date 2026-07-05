@@ -8,6 +8,7 @@ These are not shell commands. They are instruction contracts for AI assistants w
 
 - [`process-inbox`](process-inbox.md): process `00-Inbox/` as a queue, classify files, create notes, update indexes, archive raw files, and commit when safe.
 - [`learn-from-source`](learn-from-source.md): ask NotebookLM a structured question set, save the raw synthesis to `00-Inbox/`, then help turn it into Learning Notes.
+- [`add-vocabulary`](add-vocabulary.md): add learning vocabulary to the central Vocabulary Index without creating duplicates.
 
 ## How To Use
 
@@ -25,6 +26,10 @@ process-inbox mode="plan" limit=5
 learn-from-source topic="NotebookLM Agent Workflow"
 ```
 
+```text
+add-vocabulary terms="margin of safety, moat" source="investment note" domain="Investment"
+```
+
 Slash form is also acceptable in tools that support it:
 
 ```text
@@ -33,6 +38,10 @@ Slash form is also acceptable in tools that support it:
 
 ```text
 /learn-from-source topic="NotebookLM Agent Workflow"
+```
+
+```text
+/add-vocabulary terms="margin of safety, moat" source="investment note" domain="Investment"
 ```
 
 If inputs are omitted, the assistant should use the defaults documented in the command file when they are still valid.

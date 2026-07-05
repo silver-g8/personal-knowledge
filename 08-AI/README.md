@@ -19,3 +19,13 @@ AI-generated content should be reviewed before becoming permanent knowledge.
 
 - [`process-inbox`](commands/process-inbox.md): process `00-Inbox/` as an inbox queue and turn raw captures into organized PKS notes.
 - [`learn-from-source`](commands/learn-from-source.md): ask NotebookLM a structured question set and turn a source into PKS learning material. The slash alias `/learn-from-source` is optional.
+- [`add-vocabulary`](commands/add-vocabulary.md): add source-aware vocabulary to the central Vocabulary Index without creating duplicates.
+
+## Workflows
+
+- [Codex workflow](codex-workflow.md)
+- [NotebookLM workflow](notebooklm-workflow.md)
+
+## Checklists
+
+- [AI review checklist](checklists/ai-review-checklist.md)
